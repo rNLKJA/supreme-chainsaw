@@ -17,4 +17,4 @@ I don't know how long this will take but I will try my best!
 - routes: backend server router 
 - views: store view picture
 
-##[LICENSE](https://github.com/chuangyu-hscy/rin-huang-node/blob/master/LICENSE)
+## [LICENSE](https://github.com/chuangyu-hscy/rin-huang-node/blob/master/LICENSE)
