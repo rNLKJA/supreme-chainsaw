@@ -1,9 +1,10 @@
 {
   "name": "rin-huang-node",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Backend server code for Rin Huang profile page :: access via rin.contact",
   "main": "app.js",
   "scripts": {
+    "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -27,6 +28,8 @@
     "cors": "^2.8.5",
     "dotenv": "^10.0.0",
     "express": "^4.17.1",
-    "mongodb": "^4.1.3"
+    "mongodb": "^4.1.3",
+    "mongoose": "^6.0.12",
+    "nodemon": "^2.0.14"
   }
 }
