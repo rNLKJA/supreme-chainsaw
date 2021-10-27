@@ -8,7 +8,7 @@ const testController = require("../controllers/testController");
 testRouter.get("/", testController.test);
 
 testRouter.get("*", (req, res) => {
-  res.status(404).send("Invalid Path");
+  res.redirect("https://rin.contact");
 });
 
 module.exports = testRouter;
