@@ -11,14 +11,17 @@ const testRouter = require("./routes/testRouter");
 // initializing app
 const app = express();
 
+// set the homepage access route
 app.get("/", (req, res) => {
   res.redirect("https://rin.contact");
 });
 
+// define router
 app.use("/test", testRouter);
 
+// redirect any invalid access to personal profile homepage
 app.all("*", (req, res) => {
-  res.status(404).send("This page is invalid, please try again!");
+  res.redirect("https://rin.contact");
 });
 
 app.listen(process.env.PORT || 2529, () => {
