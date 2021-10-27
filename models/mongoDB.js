@@ -7,7 +7,7 @@ const mongoose = require("mongoose");
 if (process.env.PORT) {
   // login details retrieved from environment variables
   connectionString =
-    "mongodb+srv://<username>:<password>@cluster0.gxwjq.mongodb.net/Profile?retryWrites=true&w=majority";
+    "mongodb+srv://<username>:<password>@cluster0.4orhi.mongodb.net/Profile?retryWrites=true&w=majority";
 
   dbAddress = connectionString
     .replace("<username>", process.env.MONGO_USERNAME)
