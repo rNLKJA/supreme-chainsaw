@@ -12,7 +12,7 @@ const testRouter = require("./routes/testRouter");
 const app = express();
 
 app.get("/", (req, res) => {
-  res.send("Testing");
+  res.redirect("https://rin.contact");
 });
 
 app.use("/test", testRouter);
