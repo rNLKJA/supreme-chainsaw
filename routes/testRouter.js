@@ -5,7 +5,9 @@ const testRouter = express.Router();
 
 const testController = require("../controllers/testController");
 
-testRouter.get("/", testController.test);
+testRouter.get("/msg", testController.test);
+
+testRouter.get("/user", testController.user);
 
 testRouter.get("*", (req, res) => {
   res.redirect("https://rin.contact");
