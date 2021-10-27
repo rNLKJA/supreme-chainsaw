@@ -1,0 +1,32 @@
+{
+  "name": "rin-huang-node",
+  "version": "1.0.0",
+  "description": "Backend server code for Rin Huang profile page :: access via rin.contact",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chuangyu-hscy/rin-huang-node.git"
+  },
+  "keywords": [
+    "nodejs",
+    "backend",
+    "heroku",
+    "profile",
+    "express"
+  ],
+  "author": "chuangyu-hscy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chuangyu-hscy/rin-huang-node/issues"
+  },
+  "homepage": "https://github.com/chuangyu-hscy/rin-huang-node#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "mongodb": "^4.1.3"
+  }
+}
